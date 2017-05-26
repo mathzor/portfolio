@@ -1,0 +1,40 @@
+
+html {
+    display: table;
+    margin: auto;
+    background-color: #444;
+
+}
+
+body {
+    margin: 40px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-gap: 10px;
+    background-color: #444;
+    color: #fff;
+}
+
+.box {
+    background-color: #fff;
+    color: #444;
+    border-radius: 0px;
+    padding: 0px;
+    font-size: 150%;
+}
+
+.header {
+    background-color: #444;
+    color: #fff;
+    padding: 50px;
+    font-size: 300%;
+    text-align: center;
+    margin-bottom: 300px;
+    
+
+}
